@@ -1,0 +1,16 @@
+[
+    {
+        "device_type": "cisco_ios", 
+        "host": "192.168.142.189",
+        "username": "user",
+        "password": "UserPassword",
+        "secret": "privExecPassword"
+    },
+    {
+        "device_type": "cisco_ios",
+        "host": "192.168.142.190",
+        "username": "user",
+        "password": "UserPassword",
+        "secret": "privExecPassword"
+    }
+]

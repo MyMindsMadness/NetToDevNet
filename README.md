@@ -19,6 +19,21 @@ Learn about
 
 A simple Git Template linked to "My First Repo" project.
 
+## interface_reconfig
+
+This project runs 2 main scripts, a reconnaissance script (reconn.py) and the Reconfiguration script. (reconfig.py). 
+This script is ideal to make mass interfaces changes within an enterprise environment. within the script we look to change the line 
+    "authentication order dot1x mab" to "authentication order mab dot1x"
+
+To do this it searches for a string existing within the desired interfaces. 
+For example a common description or common confiuguration setting. Where this string is detected, the interface will be reconfigured.  
+In addition the script will output several files. 
+    1. A Backup of the file backup/ip.add.re.ss.txt
+    2. An audit of which interfaces will be changed
+
+Complete the json file with your device details. 
+Change the seach string to your desired common string and run. 
+
 ## Interface Parser
 
 This project is to parse interface of the Cisco IOS interfaces, breaking it down in to machine friendly json. 
