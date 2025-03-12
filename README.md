@@ -3,6 +3,17 @@ This repo is for Network engineers trying to get in to DevNet and using articles
 
 So far this repo has the following projects. 
 
+## ASA_s2sVPN_config
+
+This started out as an experiment for helper functions. So I would recommend looking at the functions
+
+ - yes_no_button
+ - interface_ip
+ - range_selector
+ - etc
+
+However this is a very functional ASA configuration builder. So feel free to use it to build your ASA Site-to-Site VPN config.
+
 ## dhcp_learn_python
 
 This is linked to a small series of videos on YouTube. The idea of this repo is to have a Network Theamed project that can be used to grow your skills in python, from Beginner to Advanced. 
@@ -67,6 +78,10 @@ Learn the following
 This project is to print out all IPv4 Private addresses. It is designed to be a simple script with an aim to bring a network concept into your first coding experience. 
 
 Blog URL: https://www.mymindsmadness.com/post/simple-network-python-script
+
+## rss_feed 
+
+I got bored and made an rss feed for Cisco Newsroom.
 
 ## Thank you
 
